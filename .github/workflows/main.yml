@@ -60,5 +60,5 @@ jobs:
          
           docker pull chathunalwis/student-management-system-backend:latest
    
-          docker run -d -p 5000:5000 --name student-management-system-backend chathunalwis/student-management-system-backend:latest
+          docker run -d -p 80:5000 --name student-management-system-backend chathunalwis/student-management-system-backend:latest
          
